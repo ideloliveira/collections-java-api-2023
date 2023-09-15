@@ -15,9 +15,9 @@ public class Main {
 		livros.adicionarLivro("Tenda dos Milagres", "Jorge Amado", 1969);
 		livros.adicionarLivro("Tenda dos Milagres", "Simão Costa", 2020);
 		
-		//System.out.println(livros.pesquisarPorAutor("Jorge Amado"));
-		//System.out.println(livros.pesquisarPorIntervaloAnos(1920, 1970));
-		System.out.println(livros.pesquisarPorTitulo("Tenda dos Milagres"));
+		System.out.println(livros.pesquisarPorAutor("Machado de Assis"));
+		//System.out.println(livros.pesquisarPorIntervaloAnos(1908, 1937));
+		//System.out.println(livros.pesquisarPorTitulo("Tenda dos Milagres"));
 
 	}
 

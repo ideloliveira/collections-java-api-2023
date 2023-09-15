@@ -25,9 +25,9 @@ public class Livro {
 
 	@Override
 	public String toString() {
-		return titulo;
+		return getTitulo()+" - "+ getAutor()+" - "+getAnoPublicacao()+"\n";
 	}
-	
+
 	
 	
 
